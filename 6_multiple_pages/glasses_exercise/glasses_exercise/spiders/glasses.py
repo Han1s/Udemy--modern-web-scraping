@@ -29,3 +29,4 @@ class GlassesSpider(scrapy.Spider):
 
         if next_page:
             yield scrapy.Request(url=next_page, callback=self.parse, dont_filter=True) 
+ 

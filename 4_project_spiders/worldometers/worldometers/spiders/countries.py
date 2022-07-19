@@ -1,7 +1,7 @@
 # -*- coding: utf-8 -*-
 import logging
 import scrapy
-
+from scrapy.shell import inspect_response
 
 class CountriesSpider(scrapy.Spider):
     name = 'countries'
